@@ -1,0 +1,48 @@
+<html>
+ <head>
+   <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
+   <style media="screen">
+    * {box-sizing: border-box;}
+    body {
+      font-family: 'Space Mono', monospace;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      margin: 15px;
+      background: #22222f;
+      color: salmon;
+      text-align: center;
+    }
+    .collection {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1024px;
+      margin: 0 auto;
+    }
+    .sample {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      padding: 25px;
+      width: 25%;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      align-items: center;
+      margin: 5px;
+    }
+    .sample:nth-of-type(4n+0) {
+      width: 50%;
+    }
+    .sample__image {
+      width: 100%;
+      max-width: 300px;
+      box-shadow: 0px 20px 43px -10px rgba(0,0,0,0.5);
+      border-radius: 1px;
+    }
+   </style>
+ </head>
+ <body>
+  <h1>vibrant-loader</h1>
+ </body>
+ <script type="text/javascript" src="bundle.js"></script>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "vibrant-loader",
+  "author": "Gerhard Bliedung <gerhard@interactivethings.com>",
+  "description": "A webpack loader extracting dominant colors and some other stuff from images",
+  "version": "0.1.0",
+  "main":
+    "index.js",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "jest": "^18.1.0",
+    "node-vibrant": "^2.1.2",
+    "webpack": "^1.14.0"
+  },
+  "keywords": [
+    "webpack",
+    "vibrant",
+    "loader",
+    "optimistic"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "build-example": "mkdir -p example/build && cp example/index.html example/build/ && cd example/ && yarn install && webpack --config=./webpack.config.js",
+    "test": "webpack --config=./__tests__/webpack.config.js && jest './__tests__/build/index-test.js'"
+  }
+}
