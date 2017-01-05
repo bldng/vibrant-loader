@@ -4,7 +4,7 @@
 
 ![header image](https://gist.githubusercontent.com/bldng/0ea14f20fc6fb8b0158f4187fbc1da66/raw/b54b096e46ab3ff9e48af869686a86fc2f5282cd/header.png)
 
-You can see it in action [here](https://vibrant-loader-examples-hitudlwixw.now.sh/).
+You can see it in action [here](https://vibrant-loader-example.now.sh/).
 
 
 
