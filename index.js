@@ -1,4 +1,5 @@
 const Vibrant = require('node-vibrant');
+const loaderUtils = require('loader-utils');
 const Jimp = require('jimp');
 
 module.exports = function(content) {
